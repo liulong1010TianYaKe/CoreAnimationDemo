@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CALayer--02/CALayer--02.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:CALayer-01/CALayer-01.xcodeproj">
    </FileRef>
 </Workspace>
