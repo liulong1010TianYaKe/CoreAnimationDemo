@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CATextLayer-04/CATextLayer-04.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CAShapeLayer-03/CAShapeLayer-03.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:CALayer--02/CALayer--02.xcodeproj">
    </FileRef>
    <FileRef
