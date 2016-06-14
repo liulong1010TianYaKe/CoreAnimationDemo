@@ -48,7 +48,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prooerty_basics_Animation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZP-gG-ukd">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Property_basic_Animation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZP-gG-ukd">
                                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -62,6 +62,9 @@
                                                 <constraint firstAttribute="bottom" secondItem="gZP-gG-ukd" secondAttribute="bottom" id="xyN-ZP-3cu"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="HL3-8C-P1r" kind="push" id="H0E-VK-Rc2"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="EvU-3I-Beg">
                                         <rect key="frame" x="0.0" y="152" width="320" height="44"/>
@@ -70,7 +73,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ColorAnimation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCQ-OZ-IDN">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Property_Key_Animation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCQ-OZ-IDN">
                                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -84,6 +87,9 @@
                                                 <constraint firstAttribute="bottom" secondItem="vCQ-OZ-IDN" secondAttribute="bottom" id="mxS-vZ-1HU"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="8ul-OM-XJB" kind="push" id="vP1-SP-ILC"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -98,6 +104,70 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qyd-Bc-BvJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="309.86666666666667" y="417.48000000000002"/>
+        </scene>
+        <!--Property_basic_Animation-->
+        <scene sceneID="OdH-0Q-I2b">
+            <objects>
+                <viewController id="HL3-8C-P1r" customClass="BasicAnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s1e-7m-W9H"/>
+                        <viewControllerLayoutGuide type="bottom" id="UeK-0G-wB4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ry0-7S-9Mg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4SI-gw-eWI">
+                                <rect key="frame" x="60" y="126" width="200" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="HKR-bl-KNy"/>
+                                    <constraint firstAttribute="height" constant="200" id="KbV-Pg-HDF"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEZ-b9-rxz">
+                                <rect key="frame" x="120" y="384" width="80" height="30"/>
+                                <state key="normal" title="changColor"/>
+                                <connections>
+                                    <action selector="changeColor:" destination="HL3-8C-P1r" eventType="touchUpInside" id="YRo-3X-Rjt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4SI-gw-eWI" firstAttribute="top" secondItem="s1e-7m-W9H" secondAttribute="bottom" constant="62" id="9pg-2n-7oU"/>
+                            <constraint firstItem="NEZ-b9-rxz" firstAttribute="top" secondItem="s1e-7m-W9H" secondAttribute="bottom" constant="320" id="HSx-qI-xJw"/>
+                            <constraint firstItem="4SI-gw-eWI" firstAttribute="centerX" secondItem="ry0-7S-9Mg" secondAttribute="centerX" id="pI5-c9-hGD"/>
+                            <constraint firstItem="NEZ-b9-rxz" firstAttribute="centerX" secondItem="ry0-7S-9Mg" secondAttribute="centerX" id="qAk-NO-7eC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Property_basic_Animation" id="88U-4j-5s4"/>
+                    <connections>
+                        <outlet property="layerView" destination="4SI-gw-eWI" id="bHF-i9-Vtq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hUP-Cw-glr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="-86"/>
+        </scene>
+        <!--Property_Key_Animation-->
+        <scene sceneID="fUU-Cb-VQZ">
+            <objects>
+                <viewController id="8ul-OM-XJB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xAM-SD-vsk"/>
+                        <viewControllerLayoutGuide type="bottom" id="dh6-rm-NwW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A2g-YV-AJf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Property_Key_Animation" id="KBM-14-H3S"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="haY-bA-t1v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1303" y="357"/>
         </scene>
         <!--ColorAnimation-->
         <scene sceneID="tb4-RU-Sth">
@@ -144,7 +214,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H9T-SG-EEn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="763" y="367"/>
+            <point key="canvasLocation" x="611" y="-171"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mwY-17-LuS">

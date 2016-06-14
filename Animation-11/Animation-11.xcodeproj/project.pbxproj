@@ -14,6 +14,8 @@
 		FDDB9B7A1D100F5000B8C4EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDB9B781D100F5000B8C4EB /* LaunchScreen.storyboard */; };
 		FDDB9B851D100F5800B8C4EB /* Animation_11Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB9B841D100F5800B8C4EB /* Animation_11Tests.m */; };
 		FDDB9B911D1012F400B8C4EB /* ColorViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB9B901D1012F400B8C4EB /* ColorViewAnimationViewController.m */; };
+		FDFADBEE1D102E5500611D8B /* BasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFADBED1D102E5500611D8B /* BasicAnimationViewController.m */; };
+		FDFADBF11D102E9600611D8B /* KeyAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFADBF01D102E9600611D8B /* KeyAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		FDDB9B861D100F5900B8C4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDDB9B8F1D1012F400B8C4EB /* ColorViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewAnimationViewController.h; sourceTree = "<group>"; };
 		FDDB9B901D1012F400B8C4EB /* ColorViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewAnimationViewController.m; sourceTree = "<group>"; };
+		FDFADBEC1D102E5500611D8B /* BasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimationViewController.h; sourceTree = "<group>"; };
+		FDFADBED1D102E5500611D8B /* BasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationViewController.m; sourceTree = "<group>"; };
+		FDFADBEF1D102E9600611D8B /* KeyAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyAnimationViewController.h; sourceTree = "<group>"; };
+		FDFADBF01D102E9600611D8B /* KeyAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				FDDB9B6E1D100F4E00B8C4EB /* AppDelegate.m */,
 				FDDB9B8F1D1012F400B8C4EB /* ColorViewAnimationViewController.h */,
 				FDDB9B901D1012F400B8C4EB /* ColorViewAnimationViewController.m */,
+				FDFADBEC1D102E5500611D8B /* BasicAnimationViewController.h */,
+				FDFADBED1D102E5500611D8B /* BasicAnimationViewController.m */,
+				FDFADBEF1D102E9600611D8B /* KeyAnimationViewController.h */,
+				FDFADBF01D102E9600611D8B /* KeyAnimationViewController.m */,
 				FDDB9B731D100F4F00B8C4EB /* Main.storyboard */,
 				FDDB9B761D100F4F00B8C4EB /* Assets.xcassets */,
 				FDDB9B781D100F5000B8C4EB /* LaunchScreen.storyboard */,
@@ -213,7 +223,9 @@
 			files = (
 				FDDB9B6F1D100F4E00B8C4EB /* AppDelegate.m in Sources */,
 				FDDB9B911D1012F400B8C4EB /* ColorViewAnimationViewController.m in Sources */,
+				FDFADBEE1D102E5500611D8B /* BasicAnimationViewController.m in Sources */,
 				FDDB9B6C1D100F4E00B8C4EB /* main.m in Sources */,
+				FDFADBF11D102E9600611D8B /* KeyAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +416,7 @@
 				FDDB9B8B1D100F5900B8C4EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDDB9B8C1D100F5900B8C4EB /* Build configuration list for PBXNativeTarget "Animation-11Tests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +425,7 @@
 				FDDB9B8E1D100F5900B8C4EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
