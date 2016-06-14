@@ -14,6 +14,8 @@
 		FDB6C6161D0D6FDB00DFB84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB6C6151D0D6FDB00DFB84C /* Assets.xcassets */; };
 		FDB6C6191D0D6FDB00DFB84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB6C6171D0D6FDB00DFB84C /* LaunchScreen.storyboard */; };
 		FDB6C6241D0D6FDD00DFB84C /* CATextLayer_04Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6C6231D0D6FDD00DFB84C /* CATextLayer_04Tests.m */; };
+		FDB6C6301D0E42C600DFB84C /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6C62F1D0E42C600DFB84C /* LayerLabel.m */; };
+		FDB6C6321D0E539300DFB84C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB6C6311D0E539300DFB84C /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		FDB6C61F1D0D6FDD00DFB84C /* CATextLayer-04Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CATextLayer-04Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB6C6231D0D6FDD00DFB84C /* CATextLayer_04Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATextLayer_04Tests.m; sourceTree = "<group>"; };
 		FDB6C6251D0D6FDD00DFB84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB6C62E1D0E42C600DFB84C /* LayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerLabel.h; sourceTree = "<group>"; };
+		FDB6C62F1D0E42C600DFB84C /* LayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerLabel.m; sourceTree = "<group>"; };
+		FDB6C6311D0E539300DFB84C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB6C6321D0E539300DFB84C /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		FDB6C5FD1D0D6FD900DFB84C = {
 			isa = PBXGroup;
 			children = (
+				FDB6C6311D0E539300DFB84C /* CoreText.framework */,
 				FDB6C6081D0D6FDA00DFB84C /* CATextLayer-04 */,
 				FDB6C6221D0D6FDD00DFB84C /* CATextLayer-04Tests */,
 				FDB6C6071D0D6FDA00DFB84C /* Products */,
@@ -82,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				FDB6C60C1D0D6FDA00DFB84C /* AppDelegate.h */,
+				FDB6C62E1D0E42C600DFB84C /* LayerLabel.h */,
+				FDB6C62F1D0E42C600DFB84C /* LayerLabel.m */,
 				FDB6C60D1D0D6FDB00DFB84C /* AppDelegate.m */,
 				FDB6C60F1D0D6FDB00DFB84C /* ViewController.h */,
 				FDB6C6101D0D6FDB00DFB84C /* ViewController.m */,
@@ -211,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB6C6301D0E42C600DFB84C /* LayerLabel.m in Sources */,
 				FDB6C6111D0D6FDB00DFB84C /* ViewController.m in Sources */,
 				FDB6C60E1D0D6FDB00DFB84C /* AppDelegate.m in Sources */,
 				FDB6C60B1D0D6FDA00DFB84C /* main.m in Sources */,

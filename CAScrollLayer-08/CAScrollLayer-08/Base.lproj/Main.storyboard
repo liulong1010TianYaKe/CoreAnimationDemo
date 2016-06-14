@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5NW-l4-AXN" customClass="MTScrollView">
+                                <rect key="frame" x="40" y="220" width="240" height="128"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="yzW-4p-acP">
+                                        <rect key="frame" x="-840" y="-536" width="1920" height="1200"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="yzW-4p-acP" firstAttribute="leading" secondItem="5NW-l4-AXN" secondAttribute="leading" constant="-840" id="BmC-hP-URN"/>
+                                    <constraint firstAttribute="height" constant="128" id="bcJ-RR-rhj"/>
+                                    <constraint firstAttribute="trailing" secondItem="yzW-4p-acP" secondAttribute="trailing" constant="-840" id="f8d-pp-Rpd"/>
+                                    <constraint firstItem="yzW-4p-acP" firstAttribute="top" secondItem="5NW-l4-AXN" secondAttribute="top" constant="-536" id="h3F-k3-28x"/>
+                                    <constraint firstAttribute="bottom" secondItem="yzW-4p-acP" secondAttribute="bottom" constant="-536" id="uIc-Fc-gVv"/>
+                                    <constraint firstAttribute="width" constant="240" id="zav-wH-Xfb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5NW-l4-AXN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ddE-mc-fvB"/>
+                            <constraint firstItem="5NW-l4-AXN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zjz-k8-BDk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.53333333333333" y="416.06"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="1920" height="1200"/>
+    </resources>
+</document>

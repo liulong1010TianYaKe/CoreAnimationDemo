@@ -2,6 +2,30 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Animation-11/Animation-11.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CAEmitterLayer-10/CAEmitterLayer-10.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CutImageDemo/CutImageDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CATiledLayer-09/CATiledLayer-09.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CAScrollLayer-08/CAScrollLayer-08.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CAReplicatorLayer-07/CAReplicatorLayer-07.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CAGradientLayer-06/CAGradientLayer-06.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CATransformLayer-05/CATransformLayer-05.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:CATextLayer-04/CATextLayer-04.xcodeproj">
    </FileRef>
    <FileRef
