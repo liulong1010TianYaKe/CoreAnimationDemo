@@ -16,6 +16,7 @@
 		FDDB9B911D1012F400B8C4EB /* ColorViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB9B901D1012F400B8C4EB /* ColorViewAnimationViewController.m */; };
 		FDFADBEE1D102E5500611D8B /* BasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFADBED1D102E5500611D8B /* BasicAnimationViewController.m */; };
 		FDFADBF11D102E9600611D8B /* KeyAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFADBF01D102E9600611D8B /* KeyAnimationViewController.m */; };
+		FDFADBF41D11212900611D8B /* TimeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFADBF31D11212900611D8B /* TimeAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		FDFADBED1D102E5500611D8B /* BasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationViewController.m; sourceTree = "<group>"; };
 		FDFADBEF1D102E9600611D8B /* KeyAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyAnimationViewController.h; sourceTree = "<group>"; };
 		FDFADBF01D102E9600611D8B /* KeyAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyAnimationViewController.m; sourceTree = "<group>"; };
+		FDFADBF21D11212900611D8B /* TimeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeAnimationViewController.h; sourceTree = "<group>"; };
+		FDFADBF31D11212900611D8B /* TimeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				FDFADBED1D102E5500611D8B /* BasicAnimationViewController.m */,
 				FDFADBEF1D102E9600611D8B /* KeyAnimationViewController.h */,
 				FDFADBF01D102E9600611D8B /* KeyAnimationViewController.m */,
+				FDFADBF21D11212900611D8B /* TimeAnimationViewController.h */,
+				FDFADBF31D11212900611D8B /* TimeAnimationViewController.m */,
 				FDDB9B731D100F4F00B8C4EB /* Main.storyboard */,
 				FDDB9B761D100F4F00B8C4EB /* Assets.xcassets */,
 				FDDB9B781D100F5000B8C4EB /* LaunchScreen.storyboard */,
@@ -225,6 +230,7 @@
 				FDDB9B911D1012F400B8C4EB /* ColorViewAnimationViewController.m in Sources */,
 				FDFADBEE1D102E5500611D8B /* BasicAnimationViewController.m in Sources */,
 				FDDB9B6C1D100F4E00B8C4EB /* main.m in Sources */,
+				FDFADBF41D11212900611D8B /* TimeAnimationViewController.m in Sources */,
 				FDFADBF11D102E9600611D8B /* KeyAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

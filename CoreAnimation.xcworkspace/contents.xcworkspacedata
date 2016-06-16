@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TimeAnimation-15/TimeAnimation-15.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CAMediaTimingFunction-14/CAMediaTimingFunction-14.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CAMediaTiming-13/CAMediaTiming-13.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TranistionAnimation-12/TranistionAnimation-12.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Animation-11/Animation-11.xcodeproj">
    </FileRef>
    <FileRef

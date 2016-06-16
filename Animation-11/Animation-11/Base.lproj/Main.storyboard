@@ -91,6 +91,31 @@
                                             <segue destination="8ul-OM-XJB" kind="push" id="vP1-SP-ILC"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="CHP-aY-DSk">
+                                        <rect key="frame" x="0.0" y="196" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CHP-aY-DSk" id="gLI-4J-ppS">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time_Animation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5O-ZM-Lnf">
+                                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="s5O-ZM-Lnf" secondAttribute="trailing" id="0aH-G1-dLF"/>
+                                                <constraint firstItem="s5O-ZM-Lnf" firstAttribute="top" secondItem="gLI-4J-ppS" secondAttribute="top" id="cfO-7k-36H"/>
+                                                <constraint firstAttribute="bottom" secondItem="s5O-ZM-Lnf" secondAttribute="bottom" id="hhu-G7-xfh"/>
+                                                <constraint firstItem="s5O-ZM-Lnf" firstAttribute="leading" secondItem="gLI-4J-ppS" secondAttribute="leading" id="xKN-EQ-0oS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="diR-8v-Voq" kind="push" id="t5r-Ba-qQX"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -104,6 +129,64 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qyd-Bc-BvJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="309.86666666666667" y="417.48000000000002"/>
+        </scene>
+        <!--Time_Animation-->
+        <scene sceneID="Mvx-dN-iIb">
+            <objects>
+                <viewController id="diR-8v-Voq" customClass="TimeAnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mfn-Ya-PlK"/>
+                        <viewControllerLayoutGuide type="bottom" id="Two-vh-MOp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zJH-bU-s3o">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4lZ-ck-pz4">
+                                <rect key="frame" x="159" y="254" width="2" height="60"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.64313725489999995" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="2" id="u7H-tY-bVO"/>
+                                    <constraint firstAttribute="height" constant="60" id="uje-Jj-zDA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QNn-ff-u4k">
+                                <rect key="frame" x="159" y="254" width="2" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="2" id="DhV-NF-agO"/>
+                                    <constraint firstAttribute="height" constant="60" id="PiX-WO-umz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uXn-9Y-Io0">
+                                <rect key="frame" x="159" y="254" width="2" height="60"/>
+                                <color key="backgroundColor" red="0.85882352939999995" green="0.52941176469999995" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="2" id="SzD-IG-S6P"/>
+                                    <constraint firstAttribute="height" constant="60" id="XdB-bJ-TFm"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QNn-ff-u4k" firstAttribute="centerY" secondItem="zJH-bU-s3o" secondAttribute="centerY" id="221-xT-6cv"/>
+                            <constraint firstItem="QNn-ff-u4k" firstAttribute="centerX" secondItem="zJH-bU-s3o" secondAttribute="centerX" id="4UG-kP-6AO"/>
+                            <constraint firstItem="uXn-9Y-Io0" firstAttribute="centerX" secondItem="zJH-bU-s3o" secondAttribute="centerX" id="Ctp-SF-Gns"/>
+                            <constraint firstItem="uXn-9Y-Io0" firstAttribute="centerY" secondItem="zJH-bU-s3o" secondAttribute="centerY" id="EKH-R5-DGY"/>
+                            <constraint firstItem="4lZ-ck-pz4" firstAttribute="centerX" secondItem="zJH-bU-s3o" secondAttribute="centerX" id="UKu-aV-yab"/>
+                            <constraint firstItem="4lZ-ck-pz4" firstAttribute="centerY" secondItem="zJH-bU-s3o" secondAttribute="centerY" id="b7N-eN-NV6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Time_Animation" id="26V-uK-Mb3"/>
+                    <connections>
+                        <outlet property="hourHand" destination="4lZ-ck-pz4" id="pgb-pm-EbE"/>
+                        <outlet property="minuteHand" destination="QNn-ff-u4k" id="otZ-Z0-4Ja"/>
+                        <outlet property="secondHand" destination="uXn-9Y-Io0" id="jwq-q5-jWJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jx4-Ft-Z53" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="821" y="426"/>
         </scene>
         <!--Property_basic_Animation-->
         <scene sceneID="OdH-0Q-I2b">
@@ -148,12 +231,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hUP-Cw-glr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="940" y="-86"/>
+            <point key="canvasLocation" x="1016" y="-395"/>
         </scene>
         <!--Property_Key_Animation-->
         <scene sceneID="fUU-Cb-VQZ">
             <objects>
-                <viewController id="8ul-OM-XJB" sceneMemberID="viewController">
+                <viewController id="8ul-OM-XJB" customClass="KeyAnimationViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xAM-SD-vsk"/>
                         <viewControllerLayoutGuide type="bottom" id="dh6-rm-NwW"/>
@@ -161,13 +244,27 @@
                     <view key="view" contentMode="scaleToFill" id="A2g-YV-AJf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IG7-qO-Oc0">
+                                <rect key="frame" x="134" y="454" width="32" height="30"/>
+                                <state key="normal" title="start"/>
+                                <connections>
+                                    <action selector="startAnimation:" destination="8ul-OM-XJB" eventType="touchUpInside" id="goz-Fi-ky1"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dh6-rm-NwW" firstAttribute="top" secondItem="IG7-qO-Oc0" secondAttribute="bottom" constant="84" id="5Df-o1-ORy"/>
+                            <constraint firstAttribute="trailing" secondItem="IG7-qO-Oc0" secondAttribute="trailing" constant="154" id="g7k-AD-i49"/>
+                            <constraint firstItem="IG7-qO-Oc0" firstAttribute="leading" secondItem="A2g-YV-AJf" secondAttribute="leading" constant="134" id="ugb-oo-4rZ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Property_Key_Animation" id="KBM-14-H3S"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="haY-bA-t1v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1303" y="357"/>
+            <point key="canvasLocation" x="1601" y="-373"/>
         </scene>
         <!--ColorAnimation-->
         <scene sceneID="tb4-RU-Sth">
@@ -214,7 +311,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H9T-SG-EEn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="611" y="-171"/>
+            <point key="canvasLocation" x="539" y="-333"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mwY-17-LuS">
