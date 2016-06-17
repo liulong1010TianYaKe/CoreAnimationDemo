@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD6CB20F1D13C4670021C667 /* MTGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6CB20E1D13C4670021C667 /* MTGradientProgressView.m */; };
+		FD6CB2121D13CBD20021C667 /* GradientProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6CB2111D13CBD20021C667 /* GradientProgressViewController.m */; };
 		FDB6C6721D0EA25700DFB84C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6C6711D0EA25700DFB84C /* main.m */; };
 		FDB6C6751D0EA25700DFB84C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6C6741D0EA25700DFB84C /* AppDelegate.m */; };
 		FDB6C6781D0EA25700DFB84C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6C6771D0EA25700DFB84C /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD6CB20D1D13C4670021C667 /* MTGradientProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGradientProgressView.h; sourceTree = "<group>"; };
+		FD6CB20E1D13C4670021C667 /* MTGradientProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGradientProgressView.m; sourceTree = "<group>"; };
+		FD6CB2101D13CBD20021C667 /* GradientProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientProgressViewController.h; sourceTree = "<group>"; };
+		FD6CB2111D13CBD20021C667 /* GradientProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientProgressViewController.m; sourceTree = "<group>"; };
 		FDB6C66D1D0EA25600DFB84C /* CAGradientLayer-06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CAGradientLayer-06.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB6C6711D0EA25700DFB84C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDB6C6731D0EA25700DFB84C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,8 +89,12 @@
 			children = (
 				FDB6C6731D0EA25700DFB84C /* AppDelegate.h */,
 				FDB6C6741D0EA25700DFB84C /* AppDelegate.m */,
+				FD6CB20D1D13C4670021C667 /* MTGradientProgressView.h */,
+				FD6CB20E1D13C4670021C667 /* MTGradientProgressView.m */,
 				FDB6C6761D0EA25700DFB84C /* ViewController.h */,
 				FDB6C6771D0EA25700DFB84C /* ViewController.m */,
+				FD6CB2101D13CBD20021C667 /* GradientProgressViewController.h */,
+				FD6CB2111D13CBD20021C667 /* GradientProgressViewController.m */,
 				FDB6C6791D0EA25700DFB84C /* Main.storyboard */,
 				FDB6C67C1D0EA25700DFB84C /* Assets.xcassets */,
 				FDB6C67E1D0EA25700DFB84C /* LaunchScreen.storyboard */,
@@ -213,6 +223,8 @@
 			files = (
 				FDB6C6781D0EA25700DFB84C /* ViewController.m in Sources */,
 				FDB6C6751D0EA25700DFB84C /* AppDelegate.m in Sources */,
+				FD6CB20F1D13C4670021C667 /* MTGradientProgressView.m in Sources */,
+				FD6CB2121D13CBD20021C667 /* GradientProgressViewController.m in Sources */,
 				FDB6C6721D0EA25700DFB84C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +416,7 @@
 				FDB6C6911D0EA25A00DFB84C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDB6C6921D0EA25A00DFB84C /* Build configuration list for PBXNativeTarget "CAGradientLayer-06Tests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +425,7 @@
 				FDB6C6941D0EA25A00DFB84C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
